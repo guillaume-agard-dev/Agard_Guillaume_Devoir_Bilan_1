@@ -203,3 +203,33 @@ body {
     font-size: 1em;
     color: #17abb3;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #17abb3;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+.footer p {
+    font-style: oblique;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
+}
+
+.social-link img:hover {
+    opacity: 0.8;
+}
